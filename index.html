@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!-- htmlの様式指定 -->
+<html lang=ja dir="ltr">
+  <!-- 日本語、右から左へ記述 -->
+  <head>
+    <meta charset="utf-8">
+    <!-- 文字化け防止 -->
+    <title>pon.design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="destyle.css">
+    <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <!-- 読み込まないとドットと矢印が表示されなかった。 -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="keyframes.css">
+    <meta name="viewport" content="width=device-width"/>
+  </head>
+  <body>
+    <header class="topContainer">
+      <div class="topBar">
+        <div class="topHam">
+          <i class="fas fa-bars"></i>
+        </div>
+        <a href="#" class="topBar__topTitle">
+          PON DESIGN
+        </a>
+        <div class="topBar__topMenu">
+          <a href="newsIndex.html" class="topNews topMenu__text">NEWS</a>
+          <a href="serviceIndex.html" class="topService topMenu__text">SERVICE</a>
+          <a href="workIndex.html" class="topWorks topMenu__text">WORKS</a>
+          <a href="companyIndex.html" class="topCompany topMenu__text">COMPANY</a>
+          <a href="recruitIndex.html" class="topRecruit topMenu__text">RECRUIT</a>
+          <a href="contactIndex.html" class="topContact topMenu__text">CONTACT</a>
+          <div class="topClose">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+      </div>
+      <div class="topContainer__inner">
+        <span class="topContainer__mainTitle">
+          WEB DESIGN SPECIALIST
+        </span>
+        <div class="topContainer__subTitle">
+          お客様の夢を叶える<br class="topContainer__subTitle-br">Webサイトを制作
+        </div>
+        <a href="#" class="topContainer__contactLink">
+          CONTACT
+        </a>
+      </div>
+      <span class="topScroll">SCROLL</span>
+    </header>
+    <a href="#" class="backHome">
+      <i class="fa fa-arrow-up"></i>
+    </a>
+    <div class="contentsOuter news">
+      <div class="news__outer">
+        <a href="newsindex.html" class="contTitle news__title titleFont">NEWS</a>
+        <span class="contSubTitle news__subTitle subTitleFont">お知らせ</span>
+      </div>
+      <div class="newsArticle__outer">
+        <div class="newsArticle">
+          <div class="newsArticle-inner">
+            <span class="newsDate">2030.02.01</span>
+            <span class="newsTopics">お知らせ</span>
+          </div>
+          <div class="newsLink-outer">
+            <a href="#" class="newsLink">
+              Webデザインニュースサイト「ウェブマガジン」に取材いただきました
+            </a>
+          </div>
+        </div>
+        
+        <div class="newsArticle">
+          <div class="newsArticle-inner">
+            <span class="newsDate">2030.01.25</span>
+            <span class="newsTopics">制作実績</span>
+          </div>
+          <div class="newsLink-outer">
+            <a href="#" class="newsLink">
+              Smoothiesta様のWebサイトを制作しました
+            </a>
+          </div>
+        </div>
+        <div class="newsArticle">
+          <div class="newsArticle-inner">
+            <span class="newsDate">2030.01.20</span>
+            <span class="newsTopics">採用</span>
+          </div>
+          <div class="newsLink-outer">
+            <a href="#" class="newsLink">
+              Webデザイナーを１名募集中です！
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contentsOuter service">
+      <a href="serviceIndex.html" class="contTitle service__title titleFont">SERVICE</a>
+      <span class="contSubTitle service__subTitle subTitleFont">事業内容</span>
+      <div class="serviceBlock__outer">
+        <div class="serviceBlock">
+          <div class="serviceImg">
+            <img src="../image/service01.jpg" alt="制作">
+          </div>
+          <span class="serviceBlock__item">Webサイト制作</span>
+          <span class="serviceBlock__text">
+            新規サイトの制作はもちろんサイトリニューアルやランディングページの制作も可能です。
+          </span>
+        </div>
+        <div class="serviceBlock">
+          <div class="serviceImg">
+            <img src="../image/service02.jpg" alt="運用">
+          </div>
+          <span class="serviceBlock__item">Webサイト運用</span>
+          <span class="serviceBlock__text">
+            サイトの更新作業や独自のアクセス解析に基づいたサイト改善のご提案をいたします。
+          </span>
+        </div>
+        <div class="serviceBlock">
+          <div class="serviceImg">
+            <img src="../image/service03.jpg" alt="開発">
+          </div>
+          <span class="serviceBlock__item">アプリ開発</span>
+          <span class="serviceBlock__text">
+            スマートフォンアプリ開発の他、Vue.jsやReactによるWebアプリの開発が可能です。
+          </span>
+        </div>
+      </div>
+      
+      <a href="#" class="contLink serviceBtn">MORE</a>
+    </div>
+    <div class="contentsOuter works">
+      <div class="works__backOuter">
+        <div class="works__backOuter__cont">
+          <span class="contTitle works__title titleFont">WORKS</span>
+          <span class="contSubTitle works__subTitle subTitleFont">制作実績</span>
+          <span class="works__backOuter__cont-text">
+            様々なジャンルのWebサイト制作が可能です。 ご購入やお申込み数の増加などを実現します！
+          </span>
+          <a href="#" class="contLink worksBtn">MORE</a>
+        </div>
+      </div>
+      <ul class="works__slider">
+        <li><img src="../image/web-conference1.jpg" alt="実績集1"></li>
+        <li><img src="../image/web-conference2.jpg" alt="実績集2"></li>
+        <li><img src="../image/web-conference3.jpg" alt="実績集3"></li>
+      </ul>
+    </div>
+    <div class="contentsOuter company">
+      <div class="company-inner">
+        <span class="contTitle company__title titleFont">COMPANY</span>
+      <span class="contSubTitle company__subTitle subTitleFont">私たちについて</span>
+      <span class="companyClaim">
+        サイトのゴール＝夢を叶えること
+      </span>
+      <span class="companyText">
+        お客様の夢を叶えること。<br>
+        それがWebサイトのゴールであり、私たちが目指すことです。<br>
+        だからこそちゃんと成果を出すサイトを全力でお作りします。<br>
+        お客様の笑顔が見たい。<br>
+        夢を実現する手助けをさせてください。<br>
+      </span>
+      <a href="#" class="contLink companyBtn">MORE</a>
+      </div>
+    </div>
+    <div class="contentsOuter recruit">
+      <div class="recruit__cont">
+        <div class="recruit__cont__inner">
+          <span class="contTitle recruit__title titleFont">RECRUIT</span>
+          <span class="contSubTitle recruit__subTitle subTitleFont">採用情報</span>
+          <span class="recruit__cont-text">
+            私たちと一緒に働きませんか？
+          </span>
+          <a href="#" class="contLink recruitBtn">MORE</a>
+        </div>
+      </div>
+      <div class="recruitImg">
+        
+      </div>
+    </div>
+    <div class="contentsOuter contact">
+      <div class="contact__inner">
+        <span class="contTitle contact__title titleFont">CONTACT</span>
+        <span class="contSubTitle contact__subTitle subTitleFont">お問い合わせ</span>
+        <span class="contactText">
+          Webサイトの制作のご依頼やお見積もりなど、お気軽にご相談ください。
+        </span>
+        <a href="#" class="contLink contactBtn">MORE</a>
+      </div>
+    </div>
+    <footer>
+      <div class="footer__inner">
+        <div class="topBar__topMenu footer">
+          <a href="#" class="topNews topMenu__text">NEWS</a>
+          <a href="#" class="topService topMenu__text">SERVICE</a>
+          <a href="#" class="topWorks topMenu__text">WORKS</a>
+          <a href="#" class="topCompany topMenu__text">COMPANY</a>
+          <a href="#" class="topRecruit topMenu__text">RECRUIT</a>
+          <a href="#" class="topContact topMenu__text">CONTACT</a>
+        </div>
+      </div>
+      <a href="https://webdesigner-go.com/coding-practice/" class="copyright">
+        無料コーディング練習所
+      </a>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="common.js"></script>
+  </body>
+</html>
