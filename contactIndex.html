@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!-- htmlの様式指定 -->
+<html lang=ja dir="ltr">
+  <!-- 日本語、右から左へ記述 -->
+  <head>
+    <meta charset="utf-8">
+    <!-- 文字化け防止 -->
+    <title>pon.design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="destyle.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <!-- 読み込まないとドットと矢印が表示されなかった。 -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="keyframes.css">
+    <meta name="viewport" content="width=device-width"/>
+  </head>
+  <body>
+    <header class="topContainer-subpage">
+      <div class="topBar">
+        <div class="topHam">
+          <i class="fas fa-bars"></i>
+        </div>
+        <a href="#" class="topBar__topTitle">
+          PON DESIGN
+        </a>
+        <div class="topBar__topMenu">
+          <a href="newsIndex.html" class="topNews topMenu__text">NEWS</a>
+          <a href="serviceIndex.html" class="topService topMenu__text">SERVICE</a>
+          <a href="workIndex.html" class="topWorks topMenu__text">WORKS</a>
+          <a href="companyIndex.html" class="topCompany topMenu__text">COMPANY</a>
+          <a href="recruitIndex.html" class="topRecruit topMenu__text">RECRUIT</a>
+          <a href="contactIndex.html" class="topContact topMenu__text">CONTACT</a>
+          <div class="topClose">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+      </div>
+      <div class="topContainer__inner">
+        <span class="topContainer__mainTitle-subpage">
+          CONTACT
+        </span>
+        <span class="topContainer__subTitle-subpage">
+          お問い合わせ
+        </span>
+      </div>
+    </header>
+    <a href="#" class="backHome">
+      <i class="fa fa-arrow-up"></i>
+    </a>
+    <div class="breadcrumb-list">
+      HOME > CONTACT
+    </div>
+    <div class="contactText">
+      <p class="contactText-p">
+        Webサイトの制作のご依頼やお見積りなど、<br class="contactBr">お気軽にご相談ください。
+      </p>
+    </div>
+    <div class="contactForm-outer">
+      <form class="contactForm">
+        <div class="contactForm__item">
+          <span class="contactForm__item-title mustItem">
+            お問い合わせ種別
+          </span>
+          <div class="contactForm__item-radioBtn contactItemText">
+            <label for=""><input type="radio" name="yourType" value="お仕事のご依頼・相談">お仕事のご依頼・相談</label>
+            <label for=""><input class="contactForm__item-radioBtn-child" type="radio" name="yourType" value="お見積もりのご依頼">お見積もりのご依頼</label>
+            <label for=""><input class="contactForm__item-radioBtn-child" type="radio" name="yourType" value="採用について">採用について</label>
+            <label for=""><input class="contactForm__item-radioBtn-end" type="radio" name="yourType" value="その他">その他</label>
+            
+          </div>
+        </div>
+        <div class="contactForm__item" action="#" method="">
+          <label for="yourName" class="contactForm__item-title mustItem">
+            お名前
+          </label>
+          <div class="contactForm__item-text">
+            <input id="yourName" type="text" name="yourName">
+          </div>
+        </div>
+        <div class="contactForm__item" action="#" method="">
+          <label for="yourCom" class="contactForm__item-title mustItem">
+            会社名
+          </label>
+          <div class="contactForm__item-text">
+            <input id="yourCom" type="text" name="yourCom">
+          </div>
+        </div>
+        <div class="contactForm__item" action="#" method="">
+          <label for="yourMail" class="contactForm__item-title mustItem">
+            メールアドレス
+          </label>
+          <div class="contactForm__item-text">
+            <input id="yourMail" type="email" name="yourMail">
+          </div>
+        </div>
+        <div class="contactForm__item" action="#" method="">
+          <label for="yourNumber" class="contactForm__item-title numberItem">
+            電話番号
+          </label>
+          <div class="contactForm__item-number">
+            <input id="yourNumber" type="number" name="yourNumber">
+          </div>
+        </div>
+        <div class="contactForm__item" action="#" method="">
+          <label for="yourComment" class="contactForm__item-title">
+            お問い合わせ内容
+          </label>
+          <div class="contactForm__item-textarea">
+            <textarea id="yourComment" name="yourComment" placeholder="お問い合わせ内容をご記入くださいませ"></textarea>
+          </div>
+        </div>
+        <div class="contactForm__item" action="#" method="">
+          <div class="contactForm__item-title mustItem">
+            PON DESIGNをどちらでお知りになりましたか？
+          </div>
+          <div class="contactForm__item-select">
+            <select name="yourAD">
+              <option value="none" selected>選択してください</option>
+              <option value="kensaku">Google/Yahoo検索</option>
+              <option value="sns">SNS</option>
+              <option value="blog">ブログ</option>
+              <option value="friend">友人や知人</option>
+              <option value="others">その他</option>
+            </select>
+          </div>
+        </div>
+      </form>
+      <input type="submit" value="送信する" class="contLink contactBtn submitBtn">
+    </div>
+    <footer>
+      <div class="footer__inner">
+        <div class="topBar__topMenu footer">
+          <a href="#" class="topNews topMenu__text">NEWS</a>
+          <a href="#" class="topService topMenu__text">SERVICE</a>
+          <a href="#" class="topWorks topMenu__text">WORKS</a>
+          <a href="#" class="topCompany topMenu__text">COMPANY</a>
+          <a href="#" class="topRecruit topMenu__text">RECRUIT</a>
+          <a href="#" class="topContact topMenu__text">CONTACT</a>
+        </div>
+      </div>
+      <span class="copyright">
+        &copy;PON DESIGN
+      </span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="common.js"></script>
+  </body>
